@@ -7,7 +7,7 @@ public class Program()
 {
     static void Main(string[] args)
     {
-        int numeroDeOperacoes = 10_0000;
+        int numeroDeOperacoes = 100_000;
         Console.WriteLine("Comparando Performance entre Tipo de Valor e Tipo de Referência...\n");
 
         Stopwatch stopwatch = Stopwatch.StartNew();
